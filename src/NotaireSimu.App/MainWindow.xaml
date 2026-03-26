@@ -1,0 +1,19 @@
+<Window x:Class="NotaireSimu.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Simulateur Donation &amp; Succession" Height="780" Width="1200">
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top">
+            <Button Content="Recalcul global" Padding="12,6" Command="{Binding RecalculGlobalCommand}" />
+        </ToolBar>
+        <TabControl>
+            <TabItem Header="Famille"><Grid Margin="12"><TextBlock Text="À implémenter : gestion des personnes." /></Grid></TabItem>
+            <TabItem Header="Patrimoine"><Grid Margin="12"><TextBlock Text="À implémenter : actifs/passifs." /></Grid></TabItem>
+            <TabItem Header="Paramètres"><Grid Margin="12"><TextBlock Text="À implémenter : hypothèses." /></Grid></TabItem>
+            <TabItem Header="Succession 1"><Grid Margin="12"><TextBlock Text="À implémenter : scénario succession 1." /></Grid></TabItem>
+            <TabItem Header="Succession 2"><Grid Margin="12"><TextBlock Text="À implémenter : scénario succession 2." /></Grid></TabItem>
+            <TabItem Header="Donation jour J"><Grid Margin="12"><TextBlock Text="À implémenter : donation." /></Grid></TabItem>
+            <TabItem Header="Synthèse"><Grid Margin="12"><TextBlock Text="À implémenter : synthèse." /></Grid></TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>
